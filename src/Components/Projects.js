@@ -123,7 +123,7 @@ export default function Projects(){
                         <div className="card">
                             <div className="headerCard">
                                 <h5 className="year">2023</h5>
-                                <h3 className="title">Mochimoto - Bakery Online Shop</h3>
+                                <h3 className="title">MotoRentPH ー Real Estate Agency</h3>
                                 <p className="description">At MotoRentPH, we simplify the rental experience. Whether you're searching for the perfect apartment or seeking professional property management, we've got you covered. Our local expertise, personalized service, and vast property portfolio ensure you find the right place to call home or maximize your investment.</p>
                                 <a href="https://www.mochimoto.store/" className="viewProject">View</a>
                                 {/* {heartBtn()} */}
