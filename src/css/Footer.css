@@ -1,0 +1,331 @@
+/* .footer-child {
+    position: absolute;
+    width: calc(100% - 13px);
+    top: 12.5px;
+    right: 6.5px;
+    left: 6.5px;
+    border-top: 1px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    height: 1px;
+  }
+  .contact6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+  }
+  .email-contactdomingoecme,
+  .please-do-not,
+  .viber-63-995 {
+    position: absolute;
+    top: 27px;
+    letter-spacing: 0.16px;
+    line-height: 25px;
+  }
+  .please-do-not {
+    left: 0;
+    font-weight: 500;
+    color: var(--color-gray-100);
+    display: inline-block;
+    width: 482px;
+    height: 67px;
+  }
+  .email-contactdomingoecme,
+  .viber-63-995 {
+    left: 508px;
+    cursor: pointer;
+  }
+  .viber-63-995 {
+    top: 52px;
+  }
+  .contact5 {
+    position: absolute;
+    top: 39px;
+    left: 49px;
+    width: 733px;
+    height: 94px;
+  }
+  .hein,
+  .hostmo,
+  .idevph,
+  .mochimoto {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    letter-spacing: 0.16px;
+    line-height: 25px;
+    cursor: pointer;
+  }
+  .hein,
+  .hostmo,
+  .idevph {
+    top: 111px;
+  }
+  .hostmo,
+  .idevph {
+    top: 86px;
+  }
+  .hostmo {
+    top: 61px;
+  }
+  .latest-project {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+    color: var(--color-dimgray-100);
+  }
+  .latest-projects {
+    position: absolute;
+    top: 208px;
+    left: 492px;
+    width: 152px;
+    height: 136px;
+    color: var(--color-black);
+  }
+  .home2 {
+    position: absolute;
+    top: 29px;
+    left: 0;
+    letter-spacing: 0.16px;
+    line-height: 25px;
+    cursor: pointer;
+  }
+  .projects2 {
+    position: absolute;
+    top: 50px;
+  }
+  .about-me3,
+  .contact7,
+  .projects2 {
+    left: 0;
+    letter-spacing: 0.16px;
+    line-height: 25px;
+    cursor: pointer;
+  }
+  .about-me3 {
+    position: absolute;
+    top: 74px;
+  }
+  .contact7 {
+    top: 99px;
+  }
+  .about,
+  .blog10,
+  .contact7 {
+    position: absolute;
+  }
+  .blog10 {
+    top: 124px;
+    left: 0;
+    letter-spacing: 0.16px;
+    line-height: 25px;
+    cursor: pointer;
+  }
+  .about {
+    top: 205px;
+    left: 312px;
+    width: 86px;
+    height: 149px;
+    color: var(--color-black);
+  }
+  .emailform,
+  .subscribe-to-receive {
+    font-weight: 500;
+    font-size: var(--font-size-sm);
+    position: absolute;
+  }
+  .subscribe-to-receive {
+    top: 34px;
+    left: 0;
+    letter-spacing: 0.16px;
+    line-height: 25px;
+    color: var(--color-gray-100);
+    display: inline-block;
+    width: 535px;
+    height: 28px;
+  }
+  .emailform {
+    border: 0;
+    font-family: var(--font-inter);
+    background-color: transparent;
+    top: 70px;
+    left: 46px;
+    width: 444px;
+    height: 39px;
+  }
+  .subscribe {
+    position: absolute;
+    top: 39px;
+    left: 860px;
+    width: 535px;
+    height: 109px;
+    font-size: var(--font-size-3xl);
+  }
+  .logo-child1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 205px;
+    height: 181px;
+    object-fit: cover;
+  }
+  .domingoedcme,
+  .edson-john-domingo1 {
+    position: absolute;
+    top: 181px;
+    left: 21px;
+    letter-spacing: 0.39px;
+    line-height: 20px;
+  }
+  .domingoedcme {
+    top: 201px;
+    left: 58px;
+    text-align: center;
+  }
+  .logo3 {
+    position: absolute;
+    top: 174px;
+    left: 49px;
+    width: 205px;
+    height: 221px;
+    cursor: pointer;
+    font-size: var(--font-size-2xs);
+    color: var(--color-gray-100);
+  }
+  .current-availability,
+  .i-usually-work {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 800;
+  }
+  .i-usually-work {
+    top: 49px;
+    font-size: var(--font-size-sm);
+    letter-spacing: 0.16px;
+    line-height: 25px;
+    font-weight: 500;
+    color: var(--color-gray-100);
+    display: flex;
+    align-items: center;
+    width: 264px;
+  }
+  .currentavailability {
+    position: absolute;
+    top: 205px;
+    left: 720px;
+    width: 264px;
+    height: 124px;
+    font-size: var(--font-size-3xl);
+  }
+  .facebook-circled-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .facebook3 {
+    position: absolute;
+    top: 4px;
+    left: 45px;
+    font-weight: 800;
+  }
+  .facebook2 {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    width: 132px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .twitter2 {
+    position: absolute;
+    top: 3px;
+    left: 45px;
+    font-weight: 800;
+  }
+  .github1,
+  .instagram1,
+  .linkedin1,
+  .twitter1 {
+    position: absolute;
+    top: 67px;
+    left: 0;
+    width: 110px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .github1,
+  .instagram1,
+  .linkedin1 {
+    top: 99px;
+    width: 136px;
+  }
+  .github1,
+  .linkedin1 {
+    top: 130px;
+    width: 121px;
+  }
+  .github1 {
+    top: 160px;
+    width: 107px;
+  }
+  .socials2 {
+    position: absolute;
+    top: 205px;
+    left: 1068px;
+    width: 136px;
+    height: 190px;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+  }
+  .footer {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 416px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-dimgray-100);
+    font-family: var(--font-inter);
+  }
+   */
+
+   .cont{
+        border-top: 2px solid gray;
+        padding-top: 20px;
+        margin-top: 50px;
+   }
+
+   .submitBtn{
+        background-color: green;
+        border-radius: 10px;
+   }
+
+   @media screen and (max-width: 991px) {
+        /* .footer{
+            display: none;
+        } */
+   }
+   .logo{
+        display: block;
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+   }
+   .li{
+        color: rgb(57, 56, 56);
+        text-decoration: none;
+   }
+   .li:hover{
+        color: rgb(57, 56, 56);
+        text-decoration: underline;
+   }
+
+   

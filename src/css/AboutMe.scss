@@ -1,0 +1,300 @@
+.mypic{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 200px;
+}
+.aboutRow{
+    
+    // margin-top: 20%;
+}
+.box1{
+    height: 150px;
+    width: 300px;
+    background-color: #CDC8C8;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 100px;
+}
+.box2{
+    height: 180px;
+    width: 250px;
+    background-color: #A8A2A2;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 280px;
+}
+.box3{
+    height: 180px;
+    width: 250px;
+    background-color: #d9d9d9ae;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 900px;
+}
+.box4{
+    height: 140px;
+    width: 250px;
+    background-color: #d9d9d9b9;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 750px;
+}
+
+.about-me-box{
+    height: 580px;
+    width: 400px;
+    background-color: #3b4146db;
+    margin-top: 150px;
+    position: relative;
+}
+.about-me-box h3{
+    text-align: center;
+    // position: relative;
+    color: white;
+    font-weight: 800;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+.about-me-box p{
+    text-align: center;
+    position: relative;
+    color: white;
+    // font-weight: 800;
+    padding: 5px 10px;
+}
+.resume{
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    border: #CDC8C8 2px solid;
+    border-radius: 10px;
+    font-weight: 800;
+}
+// .certificate{
+//     height: 600px;
+//     width: 100%;
+//     position: absolute;
+//     margin-top: -200px;
+//     background-image: url(../Images/bg1.svg);
+// }
+.bg-certificate{
+    // margin-left: -100px;
+    background-color: #BAAEAE;
+    // position: absolute;
+    width: 100%;
+    // margin-top: -500px;
+    padding: 20px 10px;
+    margin-top: 150px;
+}
+.cert:hover{
+    opacity: .4;
+}
+.contactMe{
+    color: rgb(88, 88, 88);
+}
+.contactMe:hover{
+    color: rgb(88, 88, 88);;
+}
+@media screen and (max-width: 1200px) {
+    .box1{
+        margin-left: 20px;
+    }
+    .box2{
+        margin-left: 220px;
+    }
+    .box3{
+        margin-left: 690px;
+    }
+    .box4{
+        margin-left: 600px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .mypic{
+        height: 350px;
+        margin-top: 250px;
+    }
+    .box1{
+        margin-left: -20px;
+        margin-top: 200px;
+    }
+    .box2{
+        margin-left: 120px;
+    }
+    .box3{
+        margin-left: 490px;
+
+    }
+    .box4{
+        margin-left: 400px;
+    }
+    .about-me-box{
+        height: 640px;
+        width: 350px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .mypic{
+        height: 450px;
+        margin-top: 250px;
+    }
+    .box1{
+        margin-left: -20px;
+        margin-top: 200px;
+    }
+    .box2{
+        margin-left: 20px;
+        // margin-top: 200px;
+    }
+    .box3{
+        margin-left: 250px;
+        margin-top: 500px;
+
+    }
+    .box4{
+        margin-left: 300px;
+        margin-top: 450px;
+    }
+    .about-me-box{
+        height: 540px;
+        width: 90%;
+        display: block;
+        margin: 15px auto;
+    }
+}
+@media screen and (max-width: 540px) {
+    .mypic{
+        height: 350px;
+        margin-top: 250px;
+    }
+    .box1{
+        height: 150px;
+        width: 250px;
+        margin-left: 20px;
+        margin-top: 200px;
+    }
+    .box2{
+        margin-left: 60px;
+        // margin-top: 200px;
+    }
+    .box3{
+        margin-left: 180px;
+        margin-top: 500px;
+
+    }
+    .box4{
+        margin-left: 200px;
+        margin-top: 450px;
+    }
+    .about-me-box{
+        height: 540px;
+        width: 90%;
+        display: block;
+        margin: 15px auto;
+    }
+}
+@media screen and (max-width: 505px) {
+    .mypic{
+        height: 350px;
+        margin-top: 250px;
+    }
+    .box1{
+        height: 150px;
+        width: 250px;
+        margin-left: 20px;
+        margin-top: 200px;
+    }
+    .box2{
+        margin-left: 60px;
+        // margin-top: 200px;
+    }
+    .box3{
+        margin-left: 180px;
+        margin-top: 500px;
+
+    }
+    .box4{
+        margin-left: 200px;
+        margin-top: 450px;
+    }
+    .about-me-box{
+        height: 570px;
+        width: 90%;
+        display: block;
+        margin: 15px auto;
+    }
+}
+@media screen and (max-width: 475px) {
+    .mypic{
+        height: 250px;
+        margin-top: 230px;
+    }
+    .box1{
+        height: 150px;
+        width: 250px;
+        margin-left: 20px;
+        margin-top: 200px;
+    }
+    .box2{
+        margin-left: 60px;
+        // margin-top: 200px;
+    }
+    .box3{
+        margin-left:-10px;
+        margin-top: 500px;
+
+    }
+    .box4{
+        margin-left: 85px;
+        margin-top: 750px;
+    }
+    .about-me-box{
+        height: auto;
+        width: auto;
+        display: block;
+        margin: 15px auto;
+    }
+    .cert{
+        height: 180px;
+        width: 250px;
+    }
+}
+.resBody{
+    color: black;
+}
+.emailForm{
+    margin-top: 30px;
+    padding-bottom: 25px;
+}
+.emailForm label{
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+.emailForm input{
+    position: absolute;
+    margin-top: 6px;
+    height: 35px;
+    width: auto;
+    max-width: 450px;
+    min-width: 250px;
+    border: 1px solid #3B4146;
+    // box-shadow: 2px 2px 5px #3B4146
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+.emailForm input:active{
+    border: #3B4146 1px solid;
+}
+.resHeader{
+    background-color: #3B4146;
+    color: white;
+    font-weight: 900;
+}
+.requestBtn{
+    background-color: #3B4146;
+}

@@ -1,0 +1,549 @@
+.div1{
+    
+    /* width: 800px; */
+    display: block;
+    margin: 20% auto;
+    margin-bottom: 10%;
+}
+.par{
+    width: 60%;
+    text-align:center;
+    display: block;
+    margin: 20px auto;
+    color: gray;
+    font-weight: 600;
+    width: 500px;
+}
+.name{
+     letter-spacing: 5px;
+     color: rgb(155, 154, 154);
+     font-weight: 900;
+     animation: alternate nameAnimation 3s;
+}
+@keyframes nameAnimation {
+    0%{
+        font-weight: 900;
+        letter-spacing: 5px;
+    }
+    50%{
+        font-weight: 100;
+        letter-spacing: 10px;
+    } 
+    75%{
+        letter-spacing: 1px;
+    }
+    100%{
+        font-weight: 900;
+        letter-spacing: 5px;
+    }
+}
+.header{
+    letter-spacing: 5px;
+    font-size: 52px;
+    font-weight: 900;
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    animation: alternate headerAnimation 2s;
+}
+.odd{
+    animation: alternate oddAnimation 3s;
+}
+@keyframes oddAnimation {
+    0%{
+        color: black;
+    }
+    25%{
+        color: transparent;
+        -webkit-text-stroke: 1px black;
+    }
+    50%{
+        color: black;
+    }
+    75%{
+        color: transparent;
+        -webkit-text-stroke: 1px black;
+    }
+    100%{
+        color: transparent;
+        -webkit-text-stroke: 1px black;
+    }
+}
+.even{
+    animation: alternate evenAnimation 3s;
+}
+@keyframes evenAnimation {
+    0%{
+        color: transparent;
+        -webkit-text-stroke: 1px black;
+    }
+    25%{
+        color: black;
+    }
+    50%{
+        color: transparent;
+        -webkit-text-stroke: 1px black;
+    }
+    75%{
+        color: black;
+        
+    }
+    100%{
+        color: transparent;
+        -webkit-text-stroke: 1px black;
+    }
+}
+.get-in-touch{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.text1{
+    font-weight: 700;
+    color: grey;
+    font-size: 32px;
+}
+.text2{
+    margin-top: 20px;
+    font-size: 52px;
+    font-weight: 900;
+    
+}
+.text2 a{
+    color: rgb(67, 66, 66);
+    text-decoration: none;
+}
+.text2 a:hover {
+    border-bottom: 8px solid rgb(67, 66, 66);
+    padding: 5px 10px;
+}
+.row2{
+    margin-top: 20%;
+}
+.div1 a{
+    color: rgb(69, 67, 67);
+    font-weight: 900;
+}
+
+
+.docker{
+    position: absolute;
+    margin-left: 1200px;
+    // opacity: .3;
+    animation: infinite docker 5s;
+}
+@keyframes docker {
+    0%{
+        margin-top: 0px;
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(20deg);
+    }
+    50%{
+        margin-top: 10px;
+        
+    }
+    75%{
+        transform: rotate(-20deg);
+    }
+    100%{
+        margin-top: 0px;
+        transform: rotate(0deg);
+
+    }
+}
+.react{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -50px;
+    // opacity: .3;
+    animation: infinite react 5s;
+}
+@keyframes react {
+    0%{
+        transform: rotate(0deg);
+        margin-top: -50px;
+    }
+    25%{
+        // transform: rotate(90deg);
+    }
+    50%{
+        // transform: rotate(180deg);
+        margin-top: -60px;
+    }
+    75%{
+        // transform: rotate(260deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        margin-top: -50px;
+    }
+}
+.python{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 500px;
+    animation: infinite python 5s;
+}
+@keyframes python {
+    0%{
+        transform: rotate(0deg);
+        margin-top: -150px;
+    }
+    25%{
+        transform: rotate(360deg);
+    }
+    50%{
+        margin-top: -140px;
+    }
+    75%{
+
+    }
+    100%{
+        transform: rotate(-360deg);
+        margin-top: -150px;
+    }
+}
+.node{
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 900px;
+    animation: infinite node 5s;
+}
+@keyframes node {
+    0%{
+        transform: rotate(0deg);
+        margin-top: -140px;
+    }
+    25%{
+        transform: rotate(30deg);
+    }
+    50%{
+        margin-top: -150px;
+    }
+    75%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+        margin-top: -140px;
+    }
+}
+.vuejs{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 150px;
+    animation: infinite vuejs 5s;
+}
+@keyframes vuejs {
+    0%{
+        transform: rotate(0deg);
+        margin-top: 60px;
+    }
+    25%{
+        transform: rotate(65deg);
+    }
+    50%{
+        transform: rotate(-60deg);
+        margin-top: 70px;
+    }
+    75%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+        margin-top: 60px;
+    }   
+}
+.html5{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 1250px;
+    animation: infinite html5 5s;
+}
+@keyframes html5 {
+    0%{
+        transform: rotate(0deg);
+        margin-top: 150px;
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(0deg);
+        margin-top: 140px;
+    }
+    75%{
+        transform: rotate(-50deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        margin-top: 150px;
+    }
+}
+.php{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 180px;
+    animation: infinite php 5s;
+}
+@keyframes php {
+    0%{
+        transform: rotate(0deg);
+        margin-top: 180px;
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(0deg);
+        margin-top: 170px;
+    }
+    75%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+        margin-top: 180px;
+    }
+}
+
+.database{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 290px;
+    animation: infinite database 5s;
+}
+@keyframes database {
+    0%{
+        margin-top: 280px;
+    }
+    25%{
+
+    }
+    50%{
+        margin-top: 270px;
+    }
+    75%{
+
+    }
+    100%{
+        margin-top: 280px;
+    }
+}
+.angular{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 1150px;
+    animation: infinite angular 5s;
+}
+@keyframes angular {
+    0%{
+        transform: rotate(360deg);
+        margin-top: 290px;
+    }
+    25%{
+        
+    }
+    50%{
+        transform: rotate(-360deg);
+        margin-top: 280px;
+    }
+    75%{
+        
+    }
+    100%{
+        transform: rotate(0deg);
+        margin-top: 290px;
+    }
+}
+.wordpress{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 300px;
+    animation: infinite wordpress 5s;
+}
+@keyframes wordpress {
+    0%{
+        transform: rotate(0deg);
+        margin-top: 300px;
+    }
+    25%{
+        margin-top: 310px;
+    }
+    50%{
+
+    }
+    75%{
+
+    }
+    100%{
+        transform: rotate(360deg);
+        margin-top: 300px;
+    }
+}
+.bootstrap{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 1300px;
+    animation: infinite bootstrap 5s;
+}
+@keyframes bootstrap {
+    0%{
+        transform: rotate(0deg);
+        margin-top: 320px;
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(0deg);
+        margin-top: 310px;
+    }
+    75%{
+        transform: rotate(-90deg);
+    }
+    100%{
+        transform: rotate(0deg);
+        margin-top: 320px;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    .div1{
+    
+        width: 700px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30%;
+        margin-bottom: 20%;
+    }
+    .docker{
+        margin-left: 650px;
+    }
+    .react{
+        margin-left: 50px;
+    }
+    .python{
+        margin-left: 150px;
+    }
+    .vuejs{
+        margin-left: -30px;
+    }
+    .php{
+        margin-left: 20px;
+    }
+    .database{
+        margin-left: 120px;
+    }
+    .wordpress{
+        margin-left: 0px;
+    }
+    .node{
+        margin-left: 500px;
+    }
+    .html5{
+        margin-left: 620px;
+    }
+    .angular{
+        margin-left: 550px;
+    }
+    .bootstrap{
+        margin-left: 670px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .div1{
+    
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50%;
+        margin-bottom: 20%;
+    }
+    .header{
+        letter-spacing: 5px;
+        font-size: 52px;
+        width: 340px;
+        font-weight: 900;
+        padding: 0px;
+        display: block;
+        margin: 0 auto;
+    }
+    .par{
+        width: 340px;
+        display: block;
+        margin: 20px auto;
+        margin-bottom: 0px;
+    }
+    .docker{
+        display: none;
+    }
+    .react{
+        display: none;
+    }
+    .python{
+        display: none;
+    }
+    .vuejs{
+        display: none;
+    }
+    .php{
+        display: none;
+    }
+    .database{
+        display: none;
+    }
+    .wordpress{
+        display: none;
+    }
+    .node{
+        display: none;
+    }
+    .html5{
+        display: none;
+    }
+    .angular{
+        display: none;
+    }
+    .bootstrap{
+        display: none;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .docker{
+        margin-left: 950px;
+    }
+    .react{
+        margin-left: 150px;
+    }
+    .python{
+        margin-left: 250px;
+    }
+    .vuejs{
+        margin-left: 100px;
+    }
+    .php{
+        margin-left: 180px;
+    }
+    .database{
+        margin-left: 280px;
+    }
+    .wordpress{
+        margin-left: 100px;
+    }
+    .node{
+        margin-left: 800px;
+    }
+    .html5{
+        margin-left: 920px;
+    }
+    .angular{
+        margin-left: 850px;
+    }
+    .bootstrap{
+        margin-left: 980px;
+    }
+}
