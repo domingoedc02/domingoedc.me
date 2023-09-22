@@ -5,6 +5,7 @@ import "../css/Projects.scss"
 import { MDBIcon } from "mdb-react-ui-kit";
 import { useEffect, useState } from "react";
 import hein from "../Images/hein.jpg"
+import motorent from "../Images/motorent.png"
 
 export default function Projects(){
 
@@ -123,12 +124,12 @@ export default function Projects(){
                             <div className="headerCard">
                                 <h5 className="year">2023</h5>
                                 <h3 className="title">Mochimoto - Bakery Online Shop</h3>
-                                <p className="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                <a href="#" className="viewProject">View</a>
+                                <p className="description">At MotoRentPH, we simplify the rental experience. Whether you're searching for the perfect apartment or seeking professional property management, we've got you covered. Our local expertise, personalized service, and vast property portfolio ensure you find the right place to call home or maximize your investment.</p>
+                                <a href="https://www.mochimoto.store/" className="viewProject">View</a>
                                 {/* {heartBtn()} */}
                             </div>
                             
-                            <img src={card} alt="image" height={300} width={480} className="card-image"/>
+                            <img src={motorent} alt="image" height={300} width={480} className="card-image"/>
                             
                         </div>
                     </Col>
