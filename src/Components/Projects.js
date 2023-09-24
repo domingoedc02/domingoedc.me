@@ -6,6 +6,7 @@ import { MDBIcon } from "mdb-react-ui-kit";
 import { useEffect, useState } from "react";
 import hein from "../Images/hein.jpg"
 import motorent from "../Images/motorent.png"
+import keymochi from "../Images/keymochi.png"
 
 export default function Projects(){
 
@@ -172,13 +173,13 @@ export default function Projects(){
                         <div className="card">
                             <div className="headerCard">
                                 <h5 className="year">2023</h5>
-                                <h3 className="title">Mochimoto - Bakery Online Shop</h3>
-                                <p className="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                <a href="#" className="viewProject">View</a>
+                                <h3 className="title">KeyMochi - Mochi Online Store</h3>
+                                <p className="description">Experience the perfect blend of beauty and functionality with our Mochi Online Store's UI/UX design. Navigate seamlessly through our delectable mochi offerings, and enjoy a user-friendly, visually pleasing journey that enhances your shopping experience.</p>
+                                <a href="https://swift-spell-7b1.notion.site/KeyMochi-Mochi-Online-Store-Documentation-8ed1712b780149c98f2252fe3e2df61d" className="viewProject">View</a>
                                 {/* {heartBtn()} */}
                             </div>
                             
-                            <img src={card} alt="image" height={300} width={480} className="card-image"/>
+                            <img src={keymochi} alt="image" height={300} width={480} className="card-image"/>
                             
                         </div>
                     </Col>
